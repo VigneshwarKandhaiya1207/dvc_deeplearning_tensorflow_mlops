@@ -19,7 +19,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
-    package_dir={"":"dlproj"},
-    packages=setuptools.find_packages(where="dlproj")
-
+    packages=["dlproj"]
 )
+
